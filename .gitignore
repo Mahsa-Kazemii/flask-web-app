@@ -1,3 +1,18 @@
+# Exclude virtual environments
 venv/
-*.pyc
+
+# Python cache files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+
